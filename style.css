@@ -58,6 +58,7 @@ section {
 }
 
 .image > img {
+    position: relative;
     max-width: 300px;
     margin-right: 60px;
     border-radius: 10px;
