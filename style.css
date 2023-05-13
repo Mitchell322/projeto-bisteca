@@ -48,7 +48,7 @@ picture img {
 }
 
 .info {
-    min-height: 700px;
+    /*min-height: 700px;*/
     background-color: #9c27b0;
     display: flex;
     padding: 60px 10%;
@@ -58,12 +58,14 @@ picture img {
 }
 
 .image > img {
-    max-width: 350px;
+    
+    max-width: 500px;
     margin-right: 60px;
     border-radius: 10px;
 }
 
 .text {
+    max-height: 500px;
     color: white;
     padding: 30px;
     background-color: #c832e2a6;
@@ -74,6 +76,7 @@ picture img {
 .text > h1 {
     font-size: 2em;
     padding-bottom: 20px;
+    max-height: 500px;
 }
 
 @media (max-width: 1100px) {
@@ -89,7 +92,7 @@ picture img {
     }
     
     .image > img {
-        margin: 0px;
+        margin: 20px;
     }
 
     .text {
