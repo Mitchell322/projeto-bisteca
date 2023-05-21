@@ -131,14 +131,14 @@ picture img {
 
 div.content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 div.video {
     background-color: #2b1454;
     width: 300px;
     height: 500px;
-    margin: auto;
+    /* margin: auto; */
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
@@ -158,6 +158,8 @@ div.video {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    
 }
 .pc {
     background-color:#c832e2a6;
